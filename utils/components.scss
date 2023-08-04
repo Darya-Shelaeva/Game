@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+background-color: black;
+overflow: hidden;
+margin: 0;
+}
+header{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 42px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 88px;    
+}
+.link{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+}

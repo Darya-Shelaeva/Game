@@ -1,0 +1,154 @@
+@import '../utils/components';
+@import 'home/home';
+
+*{
+    box-sizing: border-box;
+}
+
+.logo{
+margin: 0 0 15px 119px;
+color: #FFF;
+font-family: 'Poppins';
+font-size: 29px;
+font-weight: 800;
+line-height: 44px;
+}
+
+
+.header_right{
+    display: flex;
+    gap: 37px;
+}
+
+.button{
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #FA9021;
+    color: #FFF;
+    font-family: 'Poppins';
+    cursor: pointer;
+    }
+    .button:hover{
+    background-color:#794b1b;
+    }
+    .button:active {
+        transform: scale(0.95);
+        /*при клике уменьшение кнопки*/
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .home_content{
+       // margin: 220px 0 0 211px;
+       width: 473px;
+    }
+    .game_container{
+        width: 161px;
+        height: 31px;
+    }
+.game{
+color: #E87D0E;
+font-family: 'Poppins';
+font-size: 20px;
+font-weight: 700;
+line-height: 31px;
+}
+.work_container{
+width: 479px;
+height: 234px;
+}
+.work{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 77px;
+}
+.work_text_container{
+    width: 527px;
+    height: 101px;
+}
+.work_text{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.details{
+    margin-top: 50px;
+    margin-bottom: 99px;
+    width: 195px;
+    height: 53px;
+    background-color: #FB9E3C;
+    border-radius: 40px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+.details:hover{
+    background-color: #5c3b18;
+}
+
+.details:active {
+    transform: scale(0.95);
+    /*при клике уменьшение кнопки*/
+}
+.details2{
+    margin-bottom: 0; 
+}
+.picture{
+    //margin: 88px 25px 7px 28px;
+    //width: 739px;
+    width: 50%;
+    //height: 656px;
+    height: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .logo{
+        margin: 0;
+    }
+    .header_right{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .home{
+        justify-content: left;
+    }
+    .home_content{
+        margin: 0;
+    }
+    .work{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .picture{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .nav{
+        display: none;
+    }
+    .work_container{
+        width: 300px;
+        height: 134px;
+        }
+        .work_text_container{
+            width: 300px;
+            height: 101px;
+        }
+        .details{
+            margin-top: 70px;
+            width: 100px;
+            height: 45px;
+            font-size: 10px;
+        }
+}

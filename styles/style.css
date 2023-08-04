@@ -1,0 +1,328 @@
+@charset "UTF-8";
+body {
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+  margin: 0;
+}
+
+header {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 42px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 88px;
+}
+
+.link {
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+  margin: 0;
+}
+
+header {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 42px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 88px;
+}
+
+.link {
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.home_content2 {
+  margin: 220px 0 0 147px;
+}
+
+.logo2 {
+  margin: 0 0 15px 55px;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 29px;
+  font-weight: 800;
+  line-height: 44px;
+}
+
+.unity-container {
+  position: absolute;
+  top: 609px;
+  margin-left: 22px;
+}
+
+.unity {
+  width: 96px;
+  height: 30px;
+}
+
+.img_container {
+  display: flex;
+}
+
+.joy_stick {
+  position: absolute;
+  top: 0;
+  margin-left: 200px;
+  z-index: -1;
+}
+
+.cry-container {
+  position: absolute;
+  top: 202px;
+  margin-left: 56px;
+}
+
+.cry {
+  width: 101px;
+  height: 99px;
+}
+
+.unreal-container {
+  position: absolute;
+  top: 218px;
+  margin-left: 600px;
+}
+
+.unreal {
+  width: 59px;
+  height: 64px;
+}
+
+.trending_games {
+  width: 1200px;
+  display: flex;
+  margin: 178px 0 0 147px;
+}
+
+.trend_text {
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.see_all {
+  width: 139px;
+  height: 57px;
+  margin-left: 730px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.11);
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 37.5px;
+  cursor: pointer;
+}
+
+.card_container {
+  margin: 0 auto;
+  display: flex;
+  gap: 47px;
+  cursor: pointer;
+}
+
+.followers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.follow {
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.card_home {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  margin: 0 0 15px 119px;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 29px;
+  font-weight: 800;
+  line-height: 44px;
+}
+
+.header_right {
+  display: flex;
+  gap: 37px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #FA9021;
+  color: #FFF;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #794b1b;
+}
+
+.button:active {
+  transform: scale(0.95);
+  /*при клике уменьшение кнопки*/
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.home_content {
+  width: 473px;
+}
+
+.game_container {
+  width: 161px;
+  height: 31px;
+}
+
+.game {
+  color: #E87D0E;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+.work_container {
+  width: 479px;
+  height: 234px;
+}
+
+.work {
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 77px;
+}
+
+.work_text_container {
+  width: 527px;
+  height: 101px;
+}
+
+.work_text {
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.details {
+  margin-top: 50px;
+  margin-bottom: 99px;
+  width: 195px;
+  height: 53px;
+  background-color: #FB9E3C;
+  border-radius: 40px;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.details:hover {
+  background-color: #5c3b18;
+}
+
+.details:active {
+  transform: scale(0.95);
+  /*при клике уменьшение кнопки*/
+}
+
+.details2 {
+  margin-bottom: 0;
+}
+
+.picture {
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    margin: 0;
+  }
+  .header_right {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .home {
+    justify-content: left;
+  }
+  .home_content {
+    margin: 0;
+  }
+  .work {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .picture {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  .work_container {
+    width: 300px;
+    height: 134px;
+  }
+  .work_text_container {
+    width: 300px;
+    height: 101px;
+  }
+  .details {
+    margin-top: 70px;
+    width: 100px;
+    height: 45px;
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
